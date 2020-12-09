@@ -1,0 +1,36 @@
+{
+  "actions": {
+    "USER_LIKE_INCR": {
+      "feature_retrieve": [
+          "UserLikeCtr"
+      ],
+      "save_counter": [
+          "UserLikeNumIncr"
+      ]
+    },
+    "USER_LIKE_DECR": {
+      "feature_retrieve": [
+          "UserLikeCtr"
+      ],
+      "save_counter": [
+          "UserLikeNumDecr"
+      ]
+    },
+    "USER_LIKE_FREQ_INCR": {
+      "feature_retrieve": [
+          "UserLikeFreq"
+      ],
+      "save_counter": [
+          "UserLikeFreqIncr"
+      ]
+    },
+    "USER_LIKE_FREQ_DECR": {
+      "feature_retrieve": [
+          "UserLikeFreq"
+      ],
+      "save_counter": [
+          "UserLikeFreqDecr"
+      ]
+    }
+  }
+}
